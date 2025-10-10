@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="java.js"></script>
+</head>
+<body>
+    
+    <label for="peso">Peso(kg)</label>
+    <input type="number" id="peso">
+
+    <label for="altura">altura</label>
+    <input type="number" id="altura">
+
+    <p id="resultado"></p>
+
+
+    <style>
+    button {
+      padding: 12px 24px;
+      font-size: 18px;
+      background: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s ease, background 0.3s ease;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+      background: #1976D2; /* muda um pouco a cor junto */
+    }
+
+    button:active {
+      transform: scale(0.95);
+    }
+  </style>
+  
+       <br><button onclick="Calcular()">calcular</button>
+    
+
+</body>
+</html>
